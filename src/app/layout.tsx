@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -19,12 +20,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+
       <body
         className={`${roboto.className} flex flex-col min-h-screen items-center bg-primary text-default`}
       >
-        <div className="p-4 md:p-10 w-full max-w-[1256px]">{children}</div>
+        <div className="p-4 md:p-10 w-full max-w-[1256px]">
+          <NavBar />
+
+          {children}
+        </div>
       </body>
     </html>
   );
 }
- 

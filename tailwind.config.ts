@@ -13,16 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      primary: "rgba(24, 30, 36, 1)",
-      secondary: "#2A323C",
-    },
-    textColor: {
-      default: "#A6ADBB",
-    },
-    gridTemplateColumns: {
-      "auto-fit-cards": "repeat(auto-fit, minmax(277px, 1fr))",
+      colors: {
+        primary: "rgba(24, 30, 36, 1)",
+        secondary: "#2A323C",
+        bar: "#1D232A",
+        "btn-primry": "#7480FF",
+        input: "#1D232A",
+      },
+      textColor: {
+        default: "#A6ADBB",
+        "btn-primry": "#050617",
+        subtitle: "#7480FF",
+      },
+      gridTemplateColumns: {
+        "auto-fit-cards": "repeat(auto-fit, minmax(277px, 1fr))",
+      },
     },
   },
   plugins: [],

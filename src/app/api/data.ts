@@ -1,0 +1,97 @@
+export let events = [
+  {
+    id: "1",
+    name: "Nome evento fictício 01",
+    organization: "Oganização fictícia 01",
+    date: "2024-12-30T00:00:00.000Z",
+    location: "Curitiba - Pr",
+    price: 249.9,
+    rating: "10",
+    image_url: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3",
+    created_at: "2024-10-30T00:00:00.000Z",
+  },
+  {
+    id: "2",
+    name: "Nome evento fictício 02",
+    organization: "Oganização fictícia 02",
+    date: "2024-10-30T00:00:00.000Z",
+    location: "São Paulo - Sp",
+    price: 219.9,
+    rating: "10",
+    image_url: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3",
+  },
+  {
+    id: "3",
+    name: "Nome evento fictício 03",
+    organization: "Oganização fictícia 03",
+    date: "2024-08-30T00:00:00.000Z",
+    location: "Rio de Janeiro - Rj",
+    price: 89.9,
+    rating: "10",
+    created_at: "2024-10-30T00:00:00.000Z",
+    image_url: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3",
+  },
+];
+
+export let spots = [
+  {
+    id: "1",
+    name: "A1",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "2",
+    name: "A2",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "3",
+    name: "A3",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "4",
+    name: "A4",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "5",
+    name: "A5",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "6",
+    name: "B1",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "7",
+    name: "B2",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "8",
+    name: "B3",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "9",
+    name: "B4",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+  {
+    id: "10",
+    name: "B5",
+    event_id: 1,
+    status: "AVAILABLE",
+  },
+];
